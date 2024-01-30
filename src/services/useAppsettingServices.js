@@ -1,6 +1,6 @@
 
 export default () => {
-
+//this iwll fetch appsettings
     const getPreLoginAppsettings = (payload) => {
 
         return useWssServiceWrapper({
