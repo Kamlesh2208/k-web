@@ -1,0 +1,32 @@
+{
+  "name": "kidx-web",
+    "version": "1.0.0",
+    "author": "KidX",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cexdev/kidx-web.git",
+        "directory": "src"
+    },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "npx nuxi dev --host uk.dev.kidx.com",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.3",
+    "nuxt-lodash": "^2.5.3",
+    "vue": "^3.4.14",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7",
+    "@xcom/3rd-party": "1.0.0",
+    "@xcom/utils": "1.0.17",
+    "@xcom/wss-api": "1.0.23",
+    "@xcom/components": "0.0.4"
+  }
+}
